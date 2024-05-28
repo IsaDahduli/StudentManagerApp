@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:id="@+id/ScrollView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:context=".TeacherMainActivity"
+            android:background="#def1fa">
+
+        <TextView
+                android:text="Choose an Option: "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+        <Button
+                android:id="@+id/button_view_all_students"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#4f87ff"
+                android:text="View All Students"
+                android:textColor="#ffffff" />
+
+        <Button
+                android:id="@+id/button_student_add"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#4f87ff"
+                android:text="Add Student"
+                android:textColor="#ffffff" />
+
+        <Button
+                android:id="@+id/button_student_update"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#4f87ff"
+                android:text="Update Student"
+                android:textColor="#ffffff" />
+
+        <Button
+                android:id="@+id/button_student_delete"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#4f87ff"
+                android:text="Remove Student"
+                android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</ScrollView>

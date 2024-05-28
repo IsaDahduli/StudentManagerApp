@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">StudentManagerApp</string>
+
+    <string-array name="StudyFields">
+        <item>Information Technology</item>
+    </string-array>
+
+    <string-array name="CoursesIT">
+        <item>Calculus</item>
+        <item>Databases and SQL</item>
+        <item>Data Structures and Algorithms</item>
+        <item>Discrete Mathematics</item>
+        <item>Linear Algebra</item>
+        <item>Project Management</item>
+        <item>Probability</item>
+        <item>Programming in C#</item>
+        <item>Programming in Java</item>
+        <item>Programming in PHP</item>
+        <item>Telecommunications</item>
+    </string-array>
+
+</resources>
